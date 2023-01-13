@@ -1,0 +1,23 @@
+:host{
+    padding: 0 40px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button{
+    margin-top:15px;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight:bold;
+
+    &:hover{
+        background-color: white;
+        color: black;
+        
+    }
+}

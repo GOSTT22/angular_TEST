@@ -1,0 +1,33 @@
+:host {
+    display: flex;
+    background-color: bisque;
+    height: 100px;
+    align-items: center;
+    
+}
+
+.logo_left{
+   margin-left: 12.5px;
+}
+
+.link{
+    height: 35px;
+    margin: 0 10px;
+    background-color:darkturquoise;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+
+
+    &--active{
+        background-color:deepskyblue;
+    }
+}
+
+.main_menu{
+    display: flex;
+}
+    

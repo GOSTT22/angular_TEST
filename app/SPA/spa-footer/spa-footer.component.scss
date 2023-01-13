@@ -1,0 +1,15 @@
+:host {
+    background-color: black;
+    height: 50px;
+    display: flex;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    justify-content: flex-end;
+    width: 100%;
+    color: white;
+    font-size: large;
+}
